@@ -1,4 +1,9 @@
 language: scala
+sudo: false
+cache:
+  directories:
+  - $HOME/.ivy2/cache
+  - $HOME/.ivy2/maven-cache
 scala:
   - 2.11.6
 jdk:
